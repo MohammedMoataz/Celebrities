@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Famous</title>
+
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/famous.css">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+
+    <body>
+         <!--          
+            *************** Nav Bar ***************
+        -->
+        <nav class="main-nav" id="nav">
+            <div class="topbar">
+                <div class="logo">
+                    <a href="#home.html">.Famous</a>
+                </div>
+
+                <div id="toggle">
+                    <i class="fa fa-toggle-on disapper"></i>
+                    <i class="fa fa-toggle-off"></i>
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="sign-up.html">Sign up</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a id="search">Search <i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- 
+            *************** Search ***************
+         -->
+         <section id="searchPage" class="searchPage">
+            <div class="show">
+                <button id="close" class="close"><i class="fa fa-close"></i></button>
+                <form method="GET">
+                    <input id="srch" class="srch" type="search" autofocus placeholder="SEARCH KEYWORD(S)">
+                    <!-- <ul id="list"></ul>
+                    <ul id="links">
+                        <li><a href="../../Joo/Text-1.html">SINGERS</a></li>
+                        <li><a href="../../Joo/Text-1.html">Famous singers</a></li>
+                        <li><a href="../../Joo/men.html">Most popular male singers of all time</a></li>
+                        <li><a href="../../Joo/Text-1.html">Most popular female singers of all time</a></li>
+                        <li><a href="../../Gimmy/famous scientists.html">SCIENTISTS</a></li>
+                        <li><a href="../../Gimmy/famous scientists.html">Famous scirntists</a></li>
+                        <li><a href="../../Gimmy/project 1.html">Scientists through history</a></li>
+                        <li><a href="../../Gimmy/project 2.html">Arab scientists</a></li>
+                        <li><a href="#">ARTISTS</a></li>
+                        <li><a href="#">Main famous atrists</a></li>
+                        <li><a href="#">Men artists</a></li>
+                        <li><a href="#">Women artists</a></li>
+                        <li><a href="#">DOCTORS</a></li>
+                        <li><a href="#">Famous doctors</a></li>
+                        <li><a href="#">Famous men doctors and thier achievements</a></li>
+                        <li><a href="#">Famous women doctors and thier achievements</a></li>
+                        <li><a href="#">FOOTBALL</a></li>
+                        <li><a href="#">Football celebrities</a></li>
+                        <li><a href="#">Football celebrities men</a></li>
+                        <li><a href="#">Football celebrities women</a></li>
+                    </ul> -->
+                    <input id="srchBtn" class="srchBtn" type="submit" value="SEARCH">
+                </form>
+            </div>
+        </section>
+        <!-- 
+            *************** Login ***************
+         -->
+         <section class="login" id="login">
+            <div class="tree">
+                <header class="head">
+                    <h2>Login</h2>
+                    <img src="../images/member.jpg">
+                </header>
+
+                <div class="info">
+                    <form method="GET">
+                        <div class="input"><i class="fa fa-user"></i><input id="username" type='text' placeholder="Username" required></div>
+                        <div class="input"><i class="fa fa-lock"></i><input id="password" type='password' placeholder="password" required>
+                            <span id="tog">
+                                <i id="eye1" class="fa fa-eye"></i>
+                                <i id="eye2" class="fa fa-eye-slash"></i>
+                            </span>
+                        </div>
+                        <a href="#">forget your password?</a>
+                        <button id="log-in" type='submit'><a href="#">login </a><i class="fa fa-sign-in"></i></button>
+                        <a href="sign-up.html">Create new account?</a> 
+                   </form>
+                </div>
+            </div>
+        </section>
+        <div class="clearDiv"></div>
+        <!-- 
+            *************** Footer ***************
+         -->
+         <footer class="foo">
+            <div class="content">
+                <p>Copyright &copy; 2020 FAMOUS . Designed by Eng.Mohammed Moataz</p>
+                <div class="icons">
+                    <ul>
+                        <li><p>Follow us</p></li>
+                        <li><a href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>    
+                        <li><a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- 
+            *************** Script Links ***************
+         -->
+         <script src="../jQuery/jquery-3.5.1.min.js"></script>
+         <script src="../jQuery/login.js"></script>
+         <script src="../jQuery/famous.js"></script>
+         <script src="../javascript/famous.js"></script>
+         <script src="../javascript/login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Famous</title>
+
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/famous.css">
+        <link rel="stylesheet" href="../css/sign-up.css">
+    </head>
+
+    <body>
+         <!--          
+            *************** Nav Bar ***************
+        -->
+        <nav class="main-nav" id="nav">
+            <div class="topbar">
+                <div class="logo">
+                    <a href="#home.html">.Famous</a>
+                </div>
+
+                <div id="toggle">
+                    <i class="fa fa-toggle-on disapper"></i>
+                    <i class="fa fa-toggle-off"></i>
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="sign-up.html">Sign up</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a id="search">Search <i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- 
+            *************** Search ***************
+         -->
+         <section id="searchPage" class="searchPage">
+            <div class="show">
+                <button id="close" class="close"><i class="fa fa-close"></i></button>
+                <form method="GET">
+                    <input id="srch" class="srch" type="search" autofocus placeholder="SEARCH KEYWORD(S)">
+                    <!-- <ul id="list"></ul>
+                    <ul id="links">
+                        <li><a href="../../Joo/Text-1.html">SINGERS</a></li>
+                        <li><a href="../../Joo/Text-1.html">Famous singers</a></li>
+                        <li><a href="../../Joo/men.html">Most popular male singers of all time</a></li>
+                        <li><a href="../../Joo/Text-1.html">Most popular female singers of all time</a></li>
+                        <li><a href="../../Gimmy/famous scientists.html">SCIENTISTS</a></li>
+                        <li><a href="../../Gimmy/famous scientists.html">Famous scirntists</a></li>
+                        <li><a href="../../Gimmy/project 1.html">Scientists through history</a></li>
+                        <li><a href="../../Gimmy/project 2.html">Arab scientists</a></li>
+                        <li><a href="#">ARTISTS</a></li>
+                        <li><a href="#">Main famous atrists</a></li>
+                        <li><a href="#">Men artists</a></li>
+                        <li><a href="#">Women artists</a></li>
+                        <li><a href="#">DOCTORS</a></li>
+                        <li><a href="#">Famous doctors</a></li>
+                        <li><a href="#">Famous men doctors and thier achievements</a></li>
+                        <li><a href="#">Famous women doctors and thier achievements</a></li>
+                        <li><a href="#">FOOTBALL</a></li>
+                        <li><a href="#">Football celebrities</a></li>
+                        <li><a href="#">Football celebrities men</a></li>
+                        <li><a href="#">Football celebrities women</a></li>
+                    </ul> -->
+                    <input id="srchBtn" class="srchBtn" type="submit" value="SEARCH">
+                </form>
+            </div>
+        </section>
+        <!-- 
+            *************** Sign up ***************
+         -->
+        <section class="sign-up" id="sign-up">
+            <div class="container">
+                <div class="reg">
+                    <header class="head">
+                        <h2>Registration Info</h2>
+                    </header>
+    
+                    <form method="GET">
+                        <input type='text' name="first" placeholder="First Name" required>
+                        <input type='text' name="last" placeholder="Last Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type='password' id="password1" placeholder="password" required>
+                        <input type='password' id="password2" placeholder="Confirm password" required>
+                        <input type='tel' id="tel" name="tel" placeholder="Phone Number" required>
+                        <select class="countrys">
+                            <option selected displayed>country</option>
+                            <option>Afghanistan</option>
+                            <option>Albania</option>
+                            <option>Algeria</option>
+                            <option>Andorra</option>
+                            <option>Angola</option>
+                            <option>Antigua and Barbuda</option>
+                            <option>Argentina</option>
+                            <option>Armenia</option>
+                            <option>Australia</option>
+                            <option>Austria</option>
+                            <option>Austrian Empire</option>
+                            <option>Azerbaijan</option>
+                            <option>Baden</option>
+                            <option>Bahamas</option>
+                            <option>The Bahrain</option>
+                            <option>Bangladesh</option>
+                            <option>Barbados</option>
+                            <option>Bavaria</option>
+                            <option>Belarus</option>
+                            <option>Belgium</option>
+                            <option>Belize</option>
+                            <option>Benin (Dahomey)</option>
+                            <option>Bolivia</option>
+                            <option>Bosnia and Herzegovina</option>
+                            <option>Botswana</option>
+                            <option>Brazil</option>
+                            <option>Brunei</option>
+                            <option>Brunswick and Lüneburg</option>
+                            <option>Bulgaria</option>
+                            <option>Burkina Faso (Upper Volta)</option>
+                            <option>Burma</option>
+                            <option>Burundi</option>
+                            <option>Cabo Verde</option>
+                            <option>Cambodia</option>
+                            <option>Cameroon</option>
+                            <option>Canada</option>
+                            <option>Cayman Islands, The</option>
+                            <option>Central African Republic</option>
+                            <option>Central American Federation</option>
+                            <option>Chad</option>
+                            <option>Chile</option>
+                            <option>China</option>
+                            <option>Colombia</option>
+                            <option>Comoros</option>
+                            <option>Congo Free State</option>
+                            <option>Costa The Rica</option>
+                            <option>Cote Ivoire (Ivory Coast)</option>
+                            <option>Croatia</option>
+                            <option>Cuba</option>
+                            <option>Cyprus</option>
+                            <option>Czechia</option>
+                            <option>Czechoslovakia</option>
+                            <option>Democratic Republic of the Congo</option>
+                            <option>Denmark</option>
+                            <option>Djibouti</option>
+                            <option>Dominica</option>
+                            <option>Dominican Republic</option>
+                            <option>Duchy of Parma</option>
+                            <option>East Germany (German Democratic Republic)</option>
+                            <option>Ecuador</option>
+                            <option>Egypt</option>
+                            <option>El Salvador</option>
+                            <option>Equatorial Guinea</option>
+                            <option>Eritrea</option>
+                            <option>Estonia</option>
+                            <option>Eswatini</option>
+                            <option>Ethiopia</option>
+                            <option>Fiji</option>
+                            <option>Finland</option>
+                            <option>France</option>
+                            <option>Gabon</option>
+                            <option>Gambia</option>
+                            <option>Georgia</option>
+                            <option>Germany</option>
+                            <option>Ghana</option>
+                            <option>Grand Duchy of Tuscany</option>
+                            <option>Greece</option>
+                            <option>Grenada</option>
+                            <option>Guatemala</option>
+                            <option>Guinea</option>
+                            <option>Guinea-Bissau</option>
+                            <option>Guyana</option>
+                            <option>Haiti</option>
+                            <option>Hanover</option>
+                            <option>Hanseatic Republics</option>
+                            <option>Hawaii</option>
+                            <option>Hesse</option>
+                            <option>Holy See</option>
+                            <option>Honduras</option>
+                            <option>Hungary</option>
+                            <option>Iceland</option>
+                            <option>India</option>
+                            <option>Indonesia</option>
+                            <option>Iran</option>
+                            <option>Iraq</option>
+                            <option>Ireland</option>
+                            <option>Israel</option>
+                            <option>Italy</option>
+                            <option>Jamaica</option>
+                            <option>Japan</option>
+                            <option>Jordan</option>
+                            <option>Kazakhstan</option>
+                            <option>Kenya</option>
+                            <option>Kingdom of Serbia</option>
+                            <option>Kiribati</option>
+                            <option>Korea</option>
+                            <option>Kosovo</option>
+                            <option>Kuwait</option>
+                            <option>Kyrgyzstan</option>
+                            <option>Laos</option>
+                            <option>Latvia</option>
+                            <option>Lebanon</option>
+                            <option>Lesotho</option>
+                            <option>Lew Chew (Loochoo)</option>
+                            <option>Liberia</option>
+                            <option>Libya</option>
+                            <option>Liechtenstein</option>
+                            <option>Lithuania</option>
+                            <option>Luxembourg</option>
+                            <option>Madagascar</option>
+                            <option>Malawi</option>
+                            <option>Malaysia</option>
+                            <option>Maldives</option>
+                            <option>Mali</option>
+                            <option>Malta</option>
+                            <option>Marshall Islands</option>
+                            <option>Mauritania</option>
+                            <option>Mauritius</option>
+                            <option>Mecklenburg-Schwerin</option>
+                            <option>Mecklenburg-Strelitz</option>
+                            <option>Mexico</option>
+                            <option>Micronesia</option>
+                            <option>Moldova</option>
+                            <option>Monaco</option>
+                            <option>Mongolia</option>
+                            <option>Montenegro</option>
+                            <option>Morocco</option>
+                            <option>Mozambique</option>
+                            <option>Namibia</option>
+                            <option>Nassau</option>
+                            <option>Nauru</option>
+                            <option>Nepal</option>
+                            <option>Netherlands</option>
+                            <option>New Zealand</option>
+                            <option>Nicaragua</option>
+                            <option>Niger</option>
+                            <option>Nigeria</option>
+                            <option>North German Confederation</option>
+                            <option>North German Union</option>
+                            <option>North Macedonia</option>
+                            <option>Norway</option>
+                            <option>Oldenburg</option>
+                            <option>Oman</option>
+                            <option>Orange Free State</option>
+                            <option>Pakistan</option>
+                            <option>Palau</option>
+                            <option>Panama</option>
+                            <option>Papal States</option>
+                            <option>Papua New Guinea</option>
+                            <option>Paraguay</option>
+                            <option>Peru</option>
+                            <option>Philippines</option>
+                            <option>Piedmont-Sardinia</option>
+                            <option>Poland</option>
+                            <option>Portugal</option>
+                            <option>Qatar</option>
+                            <option>Republic of Genoa</option>
+                            <option>Republic of Korea (South Korea)</option>
+                            <option>Republic of the Congo</option>
+                            <option>Romania</option>
+                            <option>Russia</option>
+                            <option>Rwanda</option>
+                            <option>Saint Kitts and Nevis</option>
+                            <option>Saint Lucia</option>
+                            <option>Saint Vincent and the Grenadines</option>
+                            <option>Samoa</option>
+                            <option>San Marino</option>
+                            <option>Sao Tome and Principe</option>
+                            <option>Saudi Arabia</option>
+                            <option>Schaumburg-Lippe</option>
+                            <option>Senegal</option>
+                            <option>Serbia</option>
+                            <option>Seychelles</option>
+                            <option>Sierra Leone</option>
+                            <option>Singapore</option>
+                            <option>Slovakia</option>
+                            <option>Slovenia</option>
+                            <option>Solomon Islands</option>
+                            <option>Somalia</option>
+                            <option>South Africa</option>
+                            <option>South Sudan</option>
+                            <option>Spain</option>
+                            <option>Sri Lanka</option>
+                            <option>Sudan</option>
+                            <option>Suriname</option>
+                            <option>Sweden</option>
+                            <option>Switzerland</option>
+                            <option>Syria</option>
+                            <option>Tajikistan</option>
+                            <option>Tanzania</option>
+                            <option>Texas</option>
+                            <option>Thailand</option>
+                            <option>Timor-Leste</option>
+                            <option>Togo</option>
+                            <option>Tonga</option>
+                            <option>Trinidad and Tobago</option>
+                            <option>Tunisia</option>
+                            <option>Turkey</option>
+                            <option>Turkmenistan</option>
+                            <option>Tuvalu</option>
+                            <option>Two Sicilies</option>
+                            <option>Uganda</option>
+                            <option>Ukraine</option>
+                            <option>Union of Soviet Socialist Republics</option>
+                            <option>United Arab Emirates</option>
+                            <option>United Kingdom</option>
+                            <option>Uruguay</option>
+                            <option>Uzbekistan</option>
+                            <option>Vanuatu</option>
+                            <option>Venezuela</option>
+                            <option>Vietnam</option>
+                            <option>Württemberg</option>
+                            <option>Yemen</option>
+                            <option>Zambia</option>
+                            <option>Zimbabwe</option>
+                        </select>
+                        <h4>Birthday</h4>
+                        <select class="date">
+                            <option selected displaedol>Day</option>
+                            <option> 1</option>
+                            <option> 2</option>
+                            <option> 3</option>
+                            <option> 4</option>
+                            <option> 5</option>
+                            <option> 6</option>
+                            <option> 7</option>
+                            <option> 8</option>
+                            <option> 9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                        <select class="date">
+                            <option selected displayed>Month</option>
+                            <option> 1</option>
+                            <option> 2</option>
+                            <option> 3</option>
+                            <option> 4</option>
+                            <option> 5</option>
+                            <option> 6</option>
+                            <option> 7</option>
+                            <option> 8</option>
+                            <option> 9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <select class="date">
+                            <option selected displayed>Year</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                        </select>
+                        <h4>Ginder</h4>
+                        <input type="radio" name="only"><label>Male</label>
+                        <input type="radio" name="only"><label>Female</label>
+                        <input type="radio" name="only"><label>Custom</label>
+                        <input id="signUp" type='submit' value="sign up">
+                     </form>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../images/istockphoto-912366860-612x612.jpg" alt="image!">
+            </div>
+        </section>
+        <div class="clearDiv"></div>
+        <!-- 
+            *************** Footer ***************
+         -->
+         <footer class="foo">
+            <div class="content">
+                <p>Copyright &copy; 2020 FAMOUS . Designed by Eng.Mohammed Moataz</p>
+                <div class="icons">
+                    <ul>
+                        <li><p>Follow us</p></li>
+                        <li><a href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>    
+                        <li><a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- 
+            *************** Script Links ***************
+         -->
+         <script src="../jQuery/jquery-3.5.1.min.js"></script>
+         <script src="../jQuery/sign-up.js"></script>
+         <script src="../jQuery/famous.js"></script>
+         <script src="../javascript/famous.js"></script>
+         <script src="../javascript/sign-up.js"></script>
+    </body>
+</html>

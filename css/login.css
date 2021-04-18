@@ -1,0 +1,229 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+} 
+/*
+    *
+        *
+            * *************************** Login ****************************
+        *
+    *
+*/
+.login
+{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(54, 89, 192);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective-origin: center;
+    -moz-perspective-origin: center;
+    -o-perspective-origin: center;
+    -ms-perspective-origin: center;
+    perspective-origin: center;
+    -webkit-perspective: 100px;
+    -moz-perspective: 100px;
+    -o-perspective: 100px;
+    -ms-perspective: 100px;
+    perspective: 100px;
+}
+.the0
+{
+    background-color: rgb(54, 192, 89);
+}
+.login .tree
+{
+    width: 22%;
+    margin: 70px auto;
+    padding: 5px;
+    background-color: rgba(3, 3, 3, 0.76);
+    border-radius: 20px;
+    box-shadow:  1px -5px 10px #EEE,
+                -1px  5px 10px #EEE,
+                 1px  5px 10px #EEE,
+                -1px -5px 10px #EEE; 
+}
+.login .the1
+{
+    background-color: rgba(244, 244, 244, 0.76);
+    box-shadow:  1px -5px 10px #111,
+                -1px  5px 10px #111,
+                 1px  5px 10px #111,
+                -1px -5px 10px #111;    
+}
+.login .tree .head
+{
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+.login .tree .the2
+{
+    color: #000;
+}
+.login .tree .head h2
+{
+    font-weight: 400;
+}
+.login .head img
+{
+    width: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+}
+.login .tree .info
+{
+    display: block;
+    margin: 25px auto;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+.login .tree .info form
+{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+}
+.login .tree .info .input
+{
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+    display: block;
+    padding: 5px;
+    margin: 20px auto;
+}
+.login .tree .info .the3
+{
+    border-bottom: 1px solid #000;
+}
+.login .tree .info #tog
+{
+    display: inline-block;
+}
+.login .tree .info i
+{   
+    color: #FFF;
+    font-size: 17px;
+}
+.login .tree .info .the4
+{
+    color: #000;
+}
+.login .tree .info #tog #eye1 
+{
+    cursor: pointer;
+}
+.login .tree .info #tog #eye2
+{
+    display: none;
+    cursor: pointer;
+}
+.login .tree .info .error
+{
+    border: 1px solid red;
+}
+.login .tree .info input
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 75%;
+    border: none;
+    color: #FFF;
+    line-height: 2;
+    font-size: 15px;
+    background-color: transparent;
+}
+.login .tree .info .the5
+{
+    color: #000;
+}
+.login .tree .info a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.login .tree .info .the6
+{
+    color: #000;
+}
+.login .tree .info a:hover
+{
+    text-decoration: underline;
+}
+.login .tree .info #log-in a
+{
+    text-decoration: none;
+}
+.login .tree .info button
+{
+    margin: 40px auto;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    display: block;
+    font-size: 25px;
+    background-color: #FFF;
+    color: #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.login .tree .info .the7
+{
+    background-color: #000;
+    color: #FFF;
+}
+.login .tree .info button:hover
+{
+    -webkit-transform: translateZ(2px);
+    -moz-transform: translateZ(2px);
+    -o-transform: translateZ(2px);
+    -ms-transform: translateZ(2px);
+    transform: translateZ(2px);
+}
+.login .tree .info button:active
+{
+    background-color: #93e6ff;
+    color: #000;
+}
+.login .tree .info button a
+{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+.login .tree .info button .the8
+{
+    color: #FFF;
+}
+.login .tree .info button i
+{
+    width: auto;
+    border: none;
+    display: inline-block;
+    padding: none;
+    color: #000;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 7px;
+}
+.login .tree .info button .the9
+{
+    color: #FFF;
+}

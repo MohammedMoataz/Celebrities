@@ -1,0 +1,380 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+} 
+/*
+    *
+        *
+            * *************************** Nav Bar ****************************
+        *
+    *
+*/
+.main-nav
+{
+    position: fixed;
+    background-color: rgba(21, 23, 24, 0.90);
+}
+.the0
+{
+    background-color: rgba(240, 240, 240, 0.99);
+}
+/*
+    *
+        *
+            * *************************** Home ****************************
+        *
+    *
+*/
+.home
+{
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home .title
+{
+    margin: 250px auto;
+}
+.home .title h3
+{
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    text-shadow:  1px  1px 2px #000,
+                 -1px -1px 2px #000,
+                 -1px  1px 2px #000,
+                  1px -1px 2px #000;
+}
+.home .title h1
+{
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    font-size: 80px;
+    outline: none;
+    color: #FFF;
+    text-shadow:  1px  1px 2px #000,
+                 -1px -1px 2px #000,
+                 -1px  1px 2px #000,
+                  1px -1px 2px #000;
+    margin: 0;
+}
+.home .title button
+{
+    margin: 50px auto;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgba(1, 171, 223, 0.851);
+    border: none;
+    border-radius: 30px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.home .title .the1
+{
+    color: #000;
+    background-color: rgba(1, 223, 171, 0.851);
+}
+.home .title button:hover
+{
+    color: #01aadd;
+    background-color: white;
+}
+.home .title .the1:hover
+{
+    color: #01dfab;
+    background-color: #000;
+}
+/*
+    *
+        *
+            * *************************** Topics ****************************
+        *
+    *
+*/
+.topics
+{
+    background-image: url(../images/IMG-20200705-WA0192.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;    
+    padding: 50px;
+}
+.topics header h2
+{
+    color: #FFF;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topics header .the2
+{
+    color: #000;
+}
+.topics header .line
+{
+    border: 1px dashed #ffffff;
+    width: 70px;
+    margin: auto;
+}
+.topics header .the3
+{
+    border: 1px dashed #000;
+}
+.topics .cards
+{
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: block;   
+}
+.topics .cards .container
+{
+    width: 18%;
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    height: 500px; 
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -o-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+    -webkit-perspective-origin: bottom;
+    -moz-perspective-origin: bottom;
+    -o-perspective-origin: bottom;
+    -ms-perspective-origin: bottom;
+    perspective-origin: bottom;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d; 
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.topics .cards .container .front:hover
+{
+    -webkit-transform: translateZ(15px);    
+    -moz-transform: translateZ(15px);
+    -o-transform: translateZ(15px);
+    -ms-transform: translateZ(15px);
+    transform: translateZ(15px);
+}
+.topics .cards .container .front, .topics .cards .container .back
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #DDD;
+    position: absolute;
+    backface-visibility: hidden;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.topics .cards .container .the4
+{
+    background-color: #111;
+}
+.topics .cards .rotate
+{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.topics .cards .container .front
+{
+    z-index: 2;
+}
+.topics .cards .container .front .cover
+{
+    width: 100%;
+    height: 33%;
+    display: block;
+}
+.topics .cards .container .front .cover img:first-child
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.topics .cards .container .front .cover img:last-child
+{
+    width: 35%;
+    border-radius: 50%;
+    border: 4px solid #EEE;
+    margin-top: -45px;
+    background-color: #FFF;
+}
+.topics .cards .container .front .title
+{
+    width: 100%;
+    height: 50%;
+    margin: 40px auto;
+    display: block;
+    padding: 15px;
+}
+.topics .cards .container .front .title h3
+{
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+}
+.topics .cards .container .front .title h3 a
+{
+    text-decoration: none;
+    color: rgb(1, 171, 240);
+}
+.topics .cards .container .front .title .the5
+{
+    color: rgb(1, 240, 171);
+}
+.topics .cards .container .front .title h3 a:hover
+{
+    text-decoration: underline;
+}
+.topics .cards .container .front .title p
+{
+    text-align: left;
+    line-height: 1.5;
+    color: #000;
+}
+.topics .cards .container .front .title .the6
+{
+    color: #FFF;
+}
+.topics .cards .container .front .anemy
+{
+    margin-top: -50px;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+}
+.topics .cards .container .front .moving
+{
+    animation: arrow 1.2s ease-in-out 0s infinite normal none running;
+    color: #01abdf;
+}
+.topics .cards .container .front .the8
+{
+    color: rgb(1, 223, 171);
+}
+@keyframes arrow
+{
+    0%, 100%
+    {
+        margin-left: 30px;
+    }
+    50%
+    {
+        margin-left: 15px;
+    }
+}
+.topics .cards .container .back
+{
+    z-index: 1;
+    padding: 10px;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.topics .cards .container .back .describtion
+{
+    width: 100%;
+    height: 86%;
+    padding: 10px;
+    text-align: left;
+}
+.topics .cards .container .back .describtion > div
+{
+    padding: 7px;
+}
+.topics .cards .container .back .describtion h2
+{
+    font-size: 20px;
+    color: #01abdf;
+}
+.topics .cards .container .back .describtion .the8
+{
+    color: rgb(1, 223, 171);
+}
+.topics .cards .container .back .describtion p
+{
+    display: inline-block;
+    color: #000;
+    line-height: .5;
+}
+.topics .cards .container .back .describtion .the9
+{
+    color: #FFF;
+}
+.topics .cards .container .back .describtion a
+{
+    color: #01abdf;
+    text-decoration: none;
+}
+.topics .cards .container .back .describtion .the10
+{
+    color: rgb(1, 223, 171);
+}
+.topics .cards .container .back .describtion a:hover
+{
+    text-decoration: underline;
+}
+.topics .cards .container .back .again
+{
+    float: right;
+    display: block;
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000;
+}
+.topics .cards .container .back .the11
+{
+    color: #FFF;
+}
+.topics .cards .container .back .again:hover
+{
+    color: #01abdf;
+}
+.topics .cards .container .back .the11:hover
+{
+    color: rgb(1, 223, 171);
+}

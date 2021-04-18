@@ -1,0 +1,207 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+} 
+/*
+    *
+        *
+            * *************************** Contact us ****************************
+        *
+    *
+*/
+.contact-us
+{
+    margin: none;
+    width: 100%;
+    padding: 30px;
+    background-image: url(../images/received_2777410215681405.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-perspective: 300px;
+    -moz-perspective: 300px;
+    -o-perspective: 300px;
+    -ms-prespective: 300px;
+    perspective: 300px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective-origin: bottom;
+    -moz-perspective-origin: bottom;
+    -o-perspective-origin: bottom;
+    -ms-perspective-origin: bottom;
+    perspective-origin: bottom;
+}
+.dark 
+{
+    background-image: url(../images/dark.png);
+    color: white;
+}
+
+.dark input, .dark textarea
+{
+    color: white;
+    background-color: #222;
+}
+
+.contact-us .inter
+{
+    width: 85%;
+    margin: 70px auto;
+}
+.contact-us .inter .cont
+{    
+    width: 100%;
+}
+.contact-us .inter .cont h1
+{
+    color: #097fe0;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-us .inter .cont .the0
+{
+    color: rgb(9, 224, 127);
+}
+.contact-us .inter .cont .line
+{
+    border: 1px solid #097fe0;
+    width: 130px;
+    margin: auto;
+}
+.contact-us .inter .cont .the1
+{
+    border: 1px solid rgb(9, 224, 127);
+}
+.contact-us .inter .cont h3
+{
+    font-size: 20px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+.contact-us .inter .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us .inter .content .record
+{
+    margin-right: auto;
+}
+.contact-us .inter .content .record form input/*, .contact-us .inter .content .record form select*/
+{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    width: 450px;
+}
+.contact-us .inter .content .record form input:hover, textarea:hover
+{
+    border: 1px solid #097fe0;
+}
+.contact-us .inter .content .record form .theHover:hover
+{
+    border: 1px solid rgb(9, 224, 127);
+}
+.contact-us .inter .content .record textarea
+{
+    width: 944px;
+    padding: 10px;
+    padding-bottom: 180px;
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word; 
+}
+.contact-us .inter .content .record .btn
+{
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #097fe0;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.contact-us .inter .content .record .the2
+{
+    background-color: rgb(9, 244, 127);
+    color: #000;
+}
+.contact-us .inter .content .record .btn:hover
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translateZ(2px);
+    -moz-transform: translateZ(2px);
+    -o-transform: translateZ(2px);
+    -ms-transform: translateZ(2px);
+    transform: translateZ(2px);
+}
+.contact-us .inter .content .record .btn:active
+{
+    background-color: rgb(3, 166, 255);
+}
+.contact-us .inter .content .record .the2:active
+{
+    background-color: rgb(3, 255, 166);
+}
+.contact-us .inter .content .list ul
+{
+    margin: 50px;
+    display: inline-block;
+}
+.contact-us .inter .content .list ul li
+{
+    display: inline-block;
+    margin: 25px;
+    vertical-align: middle;
+}
+.contact-us .inter .content .list ul li i
+{
+    font-size: 30px;
+    color: #097fe0;
+    margin-right: 15px;
+}
+.contact-us .inter .content .list ul li .the3
+{
+    color: rgb(9, 244, 127);
+}
+.contact-us .inter .content .list ul li img
+{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.contact-us .inter .content .list ul li img:hover
+{
+    cursor: pointer;
+    -webkit-transform: translateZ(1px);
+    -moz-transform: translateZ(1px);
+    -o-transform: translateZ(1px);
+    -ms-transform: translateZ(1px);
+    transform: translateZ(1px);
+}

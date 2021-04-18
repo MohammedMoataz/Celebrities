@@ -1,0 +1,354 @@
+/*
+    *
+        *
+            * *************************** body ****************************
+        *
+    *
+*/
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*
+    *
+        *
+            * *************************** Navegation Bar ****************************
+        *
+    *
+*/
+.main-nav
+{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(21, 23, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    width: 100%;
+    z-index: 10;
+}
+.theme0 
+{
+    background-color: #DDD;
+}
+.main-nav .topbar
+{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav .topbar .logo
+{
+    margin-right: auto;
+}
+.main-nav .topbar .logo a
+{
+    color: #FFF;
+    text-decoration: none;
+    opacity: .5;
+    cursor: pointer;
+    font-size: 35px;
+    font-style: oblique;
+}
+.main-nav .topbar .theme1 a
+{
+    color: #000;
+    opacity: .6;
+}
+.main-nav .topbar #toggle
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.main-nav .topbar #toggle .disapper
+{
+    display: none;
+}
+.main-nav .topbar #toggle i
+{
+    position: absolute;
+    opacity: 0.5;
+    font-size: 35px;
+    color: #FFF;
+    cursor: pointer;
+}
+.main-nav .topbar #toggle .theme2
+{
+    color: #000;
+    opacity: .6;
+}
+.main-nav .topbar #toggle i:hover
+{
+    opacity: 1;
+}
+.main-nav .topbar .nav ul li
+{
+    display: inline-block;
+    padding-right: 50px;
+}
+.main-nav .topbar .nav ul li a
+{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    opacity: .5;
+    color: #FFF;
+}
+.main-nav .topbar .nav ul li .theme3
+{
+    color: #000;
+}
+.main-nav .topbar .nav ul li .logout
+{
+    color: #ff0000;
+    opacity: .85;
+}
+.main-nav .topbar .nav ul li .theme4
+{
+    color: #b00000;
+}
+.main-nav .topbar .logo a:hover, .main-nav .topbar .nav ul li a:hover
+{
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+/*
+    *
+        *
+            * *************************** Search ****************************
+        *
+    *
+*/
+.searchPage
+{
+    position: fixed;
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .95);
+    top: -100%;
+    /* width: 100%;
+    height: 100%; */
+}
+.theme5
+{
+    background-color: rgba(240, 240, 240, .99);
+}
+#searchPage .show
+{
+    display: none;
+}
+#list ul li 
+{
+    color: #FFF;
+}
+.theme6
+{
+    color: #0000;
+}
+#searchPage .show .close
+{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    border: none;
+    border-radius: 50%;
+    background-color: #01aadd;
+    color: #FFF;
+    float: right;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#searchPage .show .theme7
+{
+    background-color: #0dda1e;
+}
+#searchPage .show .close:hover
+{
+    box-shadow:  1px  1px 5px rgba(250, 250, 250, .8),
+                -1px -1px 5px rgba(250, 250, 250, .8);
+}
+#searchPage .show .theme7:hover
+{
+    box-shadow:  1px  1px 5px rgba(0, 0, 0, .8),
+                -1px -1px 5px rgba(0, 0, 0, .8);
+}
+#searchPage .show form .srch
+{
+    width: 100%;
+    top: 45%;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 300;
+    border: none;
+}
+#searchPage .show form .theme8::-webkit-input-placeholder
+{
+    color: #333;
+}
+#searchPage .show form .theme8
+{
+    color: #333;
+}
+#searchPage .show form .srchBtn
+{
+    position: absolute;
+    width: 170px;
+    height: 44px;
+    line-height: 44px;
+    top: 50%;
+    left: 50%;
+    margin: 80px auto;
+    margin-left: -100px;
+    background-color: #01aadd;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#searchPage .show form .theme9
+{
+    color: #000;
+    background-color: #0dda1e;
+}
+#searchPage .show form .srchBtn:hover
+{
+    color: #01aadd;
+    background-color: #FFF;
+}
+#searchPage .show form .theme9:hover
+{
+    color: #0dda1e;
+    background-color: #000000;
+}
+/*
+    *
+        *
+            * *************************** Footer togglt-off ****************************
+        *
+    *
+*/
+.foo
+{
+    margin: none;
+    background-color: #1e1432;  
+    display: block;
+    width: 100%;
+    padding: 30px;
+}
+.theme10
+{
+    background-color: #f9fff9;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, .25);
+}
+.foo .content
+{
+    width: 70%;
+    margin: 20px auto;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theme11 p
+{
+    color: #000;
+}
+.foo .content p
+{
+    margin-right: auto;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.foo .content .icons
+{
+    font-size: 15px;
+}
+.foo .content .icons ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.foo .content .icons ul li a
+{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #1e1432;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.foo .content .icons ul li .theme12
+{
+    background-color: #000;
+    color: #f0ffef;
+}
+.foo .content .icons ul li a:hover
+{
+    background-color: #01abdf;
+    color: #FFF;
+}
+.foo .content .icons ul li .theme12:hover
+{
+    background-color: #01df4b;
+    color: #FFF;
+}
+/*
+    *
+        *
+            * *************************** Others ****************************
+        *
+    *
+*/
+::selection
+{
+    background-color: #BBF;
+}
+.clearDiv
+{
+    clear: both;
+}
