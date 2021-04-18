@@ -39,19 +39,6 @@ $(document).ready(function() {
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*************** Theme ***************/
 $(document).ready(function() {
     $('#toggle').click(function() {
